@@ -1,13 +1,65 @@
-@import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background: #ece9e9;
+    display: flex;
+    justify-content: center;
+} 
 
-    You can write your own styles here...
+.title{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    font-size:48px;
+    display: flex;
+    justify-content: center;
+}
 
-*/
+h1{
+    color: rgb(236, 207, 209);
+    margin: 10px 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.taskList{
+    background: #ffffff;
+    border-color:#ECDBDC;
+    width: 65rem;
+    height: 25rem;
+    box-shadow: 1px 1px 2px rgb(87, 80, 80), 0 0 25px #ECDBDC, 0 0 5px rgb(128, 114, 115);
+}
+
+.enterTask{
+    border-color: #ECDBDC;
+}
+
+input{
+    width: 62.8rem;
+    padding: 1rem;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(117, 98, 99);
+    
+}
+
+.task{
+    color: rgb(117, 98, 99);
+    font-family: 'Comfortaa', cursive;
+    border-color: rgba(201, 76, 76, 0.3);
+    padding: 0.5rem;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+.footer{
+    color: rgb(65, 54, 55);
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    text-align: start;
+    border-color: rgba(201, 76, 76, 0.3);
+    padding: 1rem;
+    
+}
+
+
+
